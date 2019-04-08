@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.victormanuel.gymsena.EjercicioBiceps"
+    android:orientation="vertical" android:gravity="center_horizontal"
+    android:background="@drawable/fondo3">
+
+
+    <LinearLayout
+        android:layout_width="241dp"
+        android:layout_height="434dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.17"
+        android:background="@drawable/bordelayout"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="48dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="201dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/biceps1" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Curl con mancuerna"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="75dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+    ///
+
+    <LinearLayout
+        android:layout_width="241dp"
+        android:layout_height="434dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.17"
+        android:background="@drawable/bordelayout"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="48dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="201dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/biceps1" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Curl con mancuerna"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="75dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

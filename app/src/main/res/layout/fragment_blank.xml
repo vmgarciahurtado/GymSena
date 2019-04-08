@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    android:orientation="vertical" android:gravity="center"
+    android:id="@+id/layoutRegistrarr">
+
+    <LinearLayout
+        android:layout_width="294dp"
+        android:layout_height="478dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0.17"
+        android:background="@drawable/bordelayout"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="68dp">
+
+        <EditText
+            android:id="@+id/txtDocumentoRegistro"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.03"
+            android:ems="10"
+            android:hint="Documento"
+            android:inputType="textPersonName"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/txtNombreRegistro"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.03"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textColorHint="#000" />
+
+
+        <EditText
+            android:id="@+id/txtApellidoregistro"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.03"
+            android:ems="10"
+            android:hint="Apellido"
+            android:inputType="textPersonName"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/txtUsuarioRegistro"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.03"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="textPersonName"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/txtContraseñaRegistro"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColorHint="#000" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:text="Sexo:"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:id="@+id/grupoRadioRegistro">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#000"
+                    android:text="Masculino"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:textColorLink="#000"
+                    android:id="@+id/radioHombreRegistro"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Femenino"
+                    android:textColorHint="#000"
+                    android:id="@+id/radioMujerRegistro"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtFichaRegistro"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Ficha"
+            android:inputType="number"
+            android:textColorHint="#000" />
+
+        <Button
+            android:id="@+id/btnRegistrarseRegistro"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/borde_redondo"
+            android:text="Continuar"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
